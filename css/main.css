@@ -1,0 +1,27 @@
+header,
+main,
+aside, {
+  width: 50rem;
+}
+
+header,
+main {
+  float: left;
+}
+
+
+h1,
+h2 {
+  font-weight: 600;
+}
+p,
+button,
+li {
+  font-size: 1.5rem;
+}
+
+form p,
+button {
+  margin-top: 1.5rem;
+}
+
