@@ -29,9 +29,12 @@ var updateList = function() {
 		
 		var myFunc = function(i) {
 			var html = $('<li>' + contacts[i].firstName + " " + contacts[i].lastName + '</li>').click(function() {
-
+			$('aside').show();
+			$('.fullname').html(contacts[i].firstName + " " + contacts[i].lastName)
 			$('.first').html(contacts[i].firstName)
-		
+			$('.last').html(contacts[i].lastName)
+			$('.phone').html(contacts[i].phoneNumber)
+			$('.address').html('<li>' + contacts[i].street + " " + contacts[i].city + ", " + contacts[i].state + '</li>')
 			})
 			return html
 		}

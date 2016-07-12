@@ -1,16 +1,16 @@
 .left,
 .right {
-	width: 40rem;
+	width: 20rem;
 }
 
 .left {
 	float: left;
-	margin-left: 20rem;
+	margin-left: 40rem;
 }
 
 .right {
 	float: right;
-	margin-right: 20rem;
+	margin-right: 40rem;
 }
 
 .title h1 {
@@ -29,5 +29,9 @@ main p {
 section ul li,
 aside p {
 	font-size: 0.8rem;
+}
+
+aside {
+	display: none;
 }
 
