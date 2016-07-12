@@ -27,7 +27,8 @@ main p {
 }
 
 section ul li,
-aside p {
+aside p,
+aside ul li {
 	font-size: 0.8rem;
 }
 
